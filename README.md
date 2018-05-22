@@ -13,6 +13,7 @@ git clone git@github.com:stuntbadger/GuacamoleServer.git
 autoreconf -fi
 ./configure --with-init-dir=/etc/init.d
 
+```
 ------------------------------------------------
 guacamole-server version 0.9.14
 ------------------------------------------------
@@ -49,7 +50,7 @@ guacamole-server version 0.9.14
    Systemd units: no
 
 Type "make" to compile guacamole-server.
-
+```
 make && make install && ldconfig
 
 ##3.) guacamole client
